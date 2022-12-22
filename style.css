@@ -1,0 +1,128 @@
+body {
+    background: #202124;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+}
+
+.nav a {
+    float: right;
+    padding-left: 5px;
+    font: 14px/29px Roboto, Arial, sans-serif;
+    color: white;
+    height: 48px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+.nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav .avatar {
+    float: right;
+    border-radius: 50%;
+    padding: 5px;
+}
+.nav .material-symbols-sharp:hover{
+    background-color: #515151;
+    border-radius: 50%;  
+}
+.nav .avatar:hover{
+background-color: #515151;
+border-radius: 50%;
+}
+
+.container {
+    width: 1000px;
+    height: 780px;
+    margin: 0 auto;
+}
+
+.container .logo .go-logo {
+    margin-left: 35%;
+    position: relative;
+    padding-top: 198px;
+}
+
+.container .search .arama {
+    width: 480px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 245px;
+    border-style: hidden;
+}
+
+.container .search .search-img {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 260px;
+    position: relative;
+    margin-bottom: -34px;
+}
+
+.container .voice .voice-img {
+
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    float: right;
+    position: relative;
+    margin-right: 280px;
+    margin-top: -30px;
+}
+
+.container .buttons {
+    padding-top: 21px;
+    float: right;
+    margin-right: 325px;
+}
+
+.container .buttons .buton {
+    color: #e8eaed;
+    background-color: #303134;
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.footer {
+    width: 100%;
+    height: 91px;
+    background: #171717;
+}
+.footer a{
+    color: #999da2;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.footer .footer-left {
+    float: left;
+    display: block;
+    margin-top: 10px;
+
+}
+.footer .footer-center{
+    float: left;
+    display: block;
+    margin-top: 10px;
+    margin-left: 400px;
+
+}
+.footer .footer-right{
+    float: right;
+    display: block;
+    margin-top: 10px;
+
+}

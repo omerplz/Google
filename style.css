@@ -1,5 +1,6 @@
 body {
     background: #202124;
+    margin: 0;
 }
 
 .nav {
@@ -17,7 +18,8 @@ body {
     text-decoration: none;
 
 }
-.nav a:hover{
+
+.nav a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -27,13 +29,15 @@ body {
     border-radius: 50%;
     padding: 5px;
 }
-.nav .material-symbols-sharp:hover{
+
+.nav .material-symbols-sharp:hover {
     background-color: #515151;
-    border-radius: 50%;  
+    border-radius: 50%;
 }
-.nav .avatar:hover{
-background-color: #515151;
-border-radius: 50%;
+
+.nav .avatar:hover {
+    background-color: #515151;
+    border-radius: 50%;
 }
 
 .container {
@@ -54,7 +58,11 @@ border-radius: 50%;
     border-radius: 15px;
     margin-left: 245px;
     border-style: hidden;
+    border: 1px solid #5f6368;
+    background-color: #202124;
 }
+
+
 
 .container .search .search-img {
     width: 20px;
@@ -78,8 +86,8 @@ border-radius: 50%;
 
 .container .buttons {
     padding-top: 21px;
-    float: right;
-    margin-right: 325px;
+    margin: 0 auto;
+    width: 360px;
 }
 
 .container .buttons .buton {
@@ -100,29 +108,49 @@ border-radius: 50%;
     width: 100%;
     height: 91px;
     background: #171717;
+    color: #9aa0a6;
 }
-.footer a{
+
+.footer .top {
+    width: 100%;
+    border-bottom: 1px solid;
+  
+}
+
+.footer .bottom{
+    width: 100%;
+padding-top: 15px;
+}
+
+.footer .top p{
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    padding: 15px;
+    margin: 0;
+}
+
+.footer a {
     color: #999da2;
     text-decoration: none;
-    padding: 15px;
+    padding-right: 15px;
 }
 
 .footer .footer-left {
     float: left;
-    display: block;
-    margin-top: 10px;
-
+    width: 33.3%;
 }
-.footer .footer-center{
+
+.footer .footer-center {
     float: left;
-    display: block;
-    margin-top: 10px;
-    margin-left: 400px;
-
+    width:  33.3%;
+    text-align: center;
 }
-.footer .footer-right{
-    float: right;
-    display: block;
-    margin-top: 10px;
 
+.footer .footer-right {
+    float: left;
+    width:  33.3%;
+}
+
+.footer .footer-right a {
+   float: right;
 }

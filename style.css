@@ -18,12 +18,12 @@ body {
     text-decoration: none;
 
 }
-
+/* Navigasyon Menü Özellikleri  */
 .nav a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-
+/* Profil Resmi */
 .nav .avatar {
     float: right;
     border-radius: 50%;
@@ -34,7 +34,7 @@ body {
     background-color: #515151;
     border-radius: 50%;
 }
-
+/* Profil Resmi Özelliği */
 .nav .avatar:hover {
     background-color: #515151;
     border-radius: 50%;
@@ -51,7 +51,7 @@ body {
     position: relative;
     padding-top: 198px;
 }
-
+/* Search Butonu */
 .container .search .arama {
     width: 480px;
     height: 40px;
